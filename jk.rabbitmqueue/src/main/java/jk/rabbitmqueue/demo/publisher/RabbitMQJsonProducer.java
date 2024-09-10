@@ -7,6 +7,10 @@ import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
+/**
+ * @author Junaid.Khan
+ */
+
 @Slf4j
 @Service
 public class RabbitMQJsonProducer {
