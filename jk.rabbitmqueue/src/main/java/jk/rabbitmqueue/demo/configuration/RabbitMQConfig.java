@@ -51,7 +51,6 @@ public class RabbitMQConfig {
         return  new TopicExchange(topicExchangeName);
     }
 
-    //bind b/w queue and exchange
     @Bean
     public Binding binding(){
         return BindingBuilder.bind(queue())
